@@ -78,6 +78,9 @@ color: var;
 min-height: 90dvh;
 display: flex;
 justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 background: 
 linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 url("../img/banner.png");

@@ -1,8 +1,8 @@
 :root {
-  --primaria: #0ea5e9;
-  --secundaria: #f97316;
-  --escuro: #0f172a;
-  --claro: #ffffff;
+  --primaria: #e90e0e;
+  --secundaria: #f516f9;
+  --escuro: #3b770a;
+  --claro: #1e0070;
   --texto: #334155;
   --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
   --radius: 20px;
@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--secundaria);
+  color: var(--primaria);
 }
 
 #menu-btn {
@@ -218,11 +218,11 @@ button {
 }
 
 button:hover {
-  background: #026fa6;
+  background: #f700ff;
 }
 /* RODAPE */
 footer {
-  background: var(--escuro);
+  background: var(--primaria);
   color: var(--claro);
   text-align: center;
   padding: 50px 20px;
@@ -274,4 +274,13 @@ iframe {
 }
 /* RESPONSIVIDADE - TABLET */
 @media (min-width: 768px) and (max-width: 1200px) {
+}
+
+.produtos{
+box-shadow: var(--sombra);
+width: auto;
+}
+
+.casinha{
+height: 12px;
 }
